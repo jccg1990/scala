@@ -282,21 +282,21 @@
 [debug] == resolving dependencies videoexamples#videoexamples$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
-[debug] :: resolution report :: resolve 25ms :: artifacts dl 5ms
-[debug] 	report for videoexamples#videoexamples$sources;0.1 compile produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-compile.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 runtime produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-runtime.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 test produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-test.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 provided produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-provided.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 optional produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-optional.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 compile-internal produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-compile-internal.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 runtime-internal produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-runtime-internal.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 test-internal produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-test-internal.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 plugin produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-plugin.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 pom produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-pom.xml
-[debug] 	report for videoexamples#videoexamples$sources;0.1 scala-tool produced in E:\Workspaces\Scala\Functional Programming Principles in Scala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-scala-tool.xml
-[debug] 	resolve done (25ms resolve - 5ms download)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
+[debug] :: resolution report :: resolve 20ms :: artifacts dl 2ms
+[debug] 	report for videoexamples#videoexamples$sources;0.1 compile produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-compile.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 runtime produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-runtime.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 test produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-test.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 provided produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-provided.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 optional produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-optional.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 compile-internal produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-compile-internal.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 runtime-internal produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-runtime-internal.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 test-internal produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-test-internal.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 plugin produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-plugin.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 pom produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-pom.xml
+[debug] 	report for videoexamples#videoexamples$sources;0.1 scala-tool produced in E:\Workspaces\Scala\FunctionalProgrammingPrinciplesInScala\VideoExcercies\target\scala-2.12\resolution-cache\reports\videoexamples-videoexamples$sources-scala-tool.xml
+[debug] 	resolve done (20ms resolve - 2ms download)
