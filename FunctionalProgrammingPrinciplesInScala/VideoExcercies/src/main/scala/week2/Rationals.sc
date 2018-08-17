@@ -19,26 +19,25 @@ object Rationals {
 
     def this(x: Int) = this(x, 1)
 
-    def numer = x
+    val g = gcd(x, y)
 
-    def denom = y
+    def numer = x / g
+
+    def denom = y / g
 
 
-    def < (that: Rational) = numer * that.denom < that.numer * denom
+    def <(that: Rational) = numer * that.denom < that.numer * denom
 
-    def max (that: Rational) = if (this < (that)) that else this
+    def max(that: Rational) = if (this < (that)) that else this
 
-    def + (that: Rational) =
+    def +(that: Rational) =
       new Rational(numer * that.denom + that.numer * denom, denom * that.denom)
 
     def unary_- : Rational = new Rational(-numer, denom)
 
-    def - (that: Rational) = this + -that
+    def -(that: Rational) = this + -that
 
-    override def toString = {
-      val g = gcd(x, y)
-      numer / g + "/" + denom / g
-    }
+    override def toString = numer + "/" + denom
 
     private def gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a % b)
   }
