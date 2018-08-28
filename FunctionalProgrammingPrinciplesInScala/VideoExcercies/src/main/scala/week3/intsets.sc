@@ -1,8 +1,13 @@
+import sun.invoke.empty.Empty
+
 object intsets {
   val t4 = new NonEmpty(4, new NonEmpty(3, Empty, Empty), Empty)
   val t5 = new NonEmpty(5, Empty, Empty)
 
   (t4.union(t5)).contains(7)
+
+  def f(xs: week4.ListA[NonEmpty], x: Empty) = xs prepend x
+
 
   abstract class IntSet {
     def incl(x: Int): IntSet
@@ -10,16 +15,6 @@ object intsets {
     def contains(x: Int): Boolean
 
     def union(other: IntSet): IntSet
-  }
-
-  object Empty extends IntSet {
-    override def incl(x: Int) = new NonEmpty(x, Empty, Empty)
-
-    override def contains(x: Int) = false
-
-    override def toString: String = "."
-
-    override def union(other: IntSet) = other
   }
 
   class NonEmpty(elem: Int, left: IntSet, right: IntSet) extends IntSet {
@@ -37,6 +32,16 @@ object intsets {
 
     override def union(other: IntSet) =
       ((left union right) union other) incl elem
+  }
+
+  object Empty extends IntSet {
+    override def incl(x: Int) = new NonEmpty(x, Empty, Empty)
+
+    override def contains(x: Int) = false
+
+    override def toString: String = "."
+
+    override def union(other: IntSet) = other
   }
 
 }
