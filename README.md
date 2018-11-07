@@ -1,2 +1,2 @@
 # scala
-Functional Programming in Scala
+Coursera Specialization
