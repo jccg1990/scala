@@ -9,6 +9,8 @@
 
 **/target/**
 **/.idea/**
+BigDataAnalysisScalaSpark/wikipedia/src/main/resources/wikipedia/wikipedia.dat
+**/resources/**/*.csv
 
 # Packages #
 ############
